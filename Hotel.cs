@@ -8,12 +8,13 @@ namespace git
 {
     class Hotel
     {
+        public int count { get; set; }
         public int id { get; set; }
         public string Name { get; set; }
         public int CountOfStars {  get; set; }
         public string CountryName {  get; set; }
         public string HotelImage { get; set; }
-
+        
 
     }
 }
